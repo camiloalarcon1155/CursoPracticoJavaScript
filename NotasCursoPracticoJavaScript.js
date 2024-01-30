@@ -658,7 +658,9 @@ console.warm. console.alert. cosole.table
 AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
  */
 
+//vamos a hacer conceccion de java script con html
 
+//en node.js es de otra forma como se relizan codigo de coneccion con java script, prro para temas de java script html y el navegador sera como se moostrara en las siguiemntes clsases:
 
 
 
