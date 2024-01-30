@@ -195,11 +195,35 @@ if (tipoDeSuscripcion == "Free") {
 👌👌👌👌//Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays u objetos y un solo condicional. 😏
 
 
+//asi lo hizo platzi:
+
+//crera un objeto:
+const tiposDeSuscripcion = {//creamos un objeto. cada elemento va a ser un mensaje que imprtimimos por cada suscripcion y el nombre clave va a ser el nombre de la suscripcion.
+    Free: "Solo puedes tomar los cursos gratis",
+    Basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
+    Expert: "Puedes tomar casi todos los cursos de Platzi durante un año",
+    ExpertPlus: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"
+
+}; 
+
+/* const ejemploSuscripcion = "Free"
 
 
+tiposDeSuscripcion[ejemploSuscripcion] */
 
+//creamos una funcionm para ... enviar el nombre clave, osea el tipo de suscripcion y que de acuerdo a eso me envie el mensaje corresponiendte
 
+function conseguirTiposDeSuscripciones(suscripcion) {
+    if (tiposDeSuscripcion[suscripcion]) {
+        console.log((tiposDeSuscripcion[suscripcion]))
+        return //hacemos un return para que la funcion si esntra aca, se detenga al terminar de ejecurtarse
+    }
+    console.warn('Ese tipo de suscripcion no existe')// si no se cumple la condicion de arriba, se ejecutara este anuncio inmediatamente 
+}
 
+//ahora la llamamos:
+
+conseguirTiposDeSuscripciones('Expert')
 
 //pero asi lo hizo la IA📃📃📃📃📃📃📃📃📃
 
@@ -631,10 +655,7 @@ NOTA IMPORTANTE. 🙌 tenia unda duda sobre como usar el return de una funcion. 
 los navergadortes nos dsan unsas fuinciones pòr defecto como: comnsole.log
 console.warm. console.alert. cosole.table
 
-
-
-
-
+AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
  */
 
 
