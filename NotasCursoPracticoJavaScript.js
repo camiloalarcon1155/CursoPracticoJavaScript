@@ -72,7 +72,7 @@ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es un condicional ?
     //es un tipo de filtro que permite obtener o tratar los datos con funciones determinadas, de acuerdo a si se cumple o no ciertos parametros
 ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias ?
-    //if, switch,WHILE
+    //if, switch,
 ¿Puedo combinar funciones y condicionales ?
 // se usan los condicionales  dentro de las funciones
     
@@ -166,49 +166,42 @@ if (tipoDeSuscripcion === "Free") {
     console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
 }
 
+
+
+🤷‍♀️//2da solucion::
+
+
+function tomarCurso(tipoDeSuscripcion) {
+ 
+if (tipoDeSuscripcion == "Free") {
+    console.log("Solo puedes tomar los cursos gratis");
+    return;
+} if (tipoDeSuscripcion == "Basic") {
+    console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+     return;
+} if (tipoDeSuscripcion == "Expert") {
+    console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+     return;
+} if (tipoDeSuscripcion == "ExpertPlus") {
+    console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+     return;
+}
+    console.warn("Abralo papi, escriba la palabra que es")
+}
+
+
 //fue la misma respuesta que la IA
 
 👌👌👌👌//Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays u objetos y un solo condicional. 😏
 
 
-🤷‍♀️intentare hacerlo:
-
-//let tipoDeSuscripcion = "Basic";
-var ciclo = ["Free", "Basic", "Expert", "ExpertPlus"];
-function curso(suscripcion) { 
-    this.suscripcion = suscripcion
-}
-    
-for (var i = 0; i < 4; i++) {
-    var suscripciones = [];
-    var miSuscripcion = new curso(ciclo);
-    suscripciones.push(miSuscripcion);
-}
-
-//
-
-function tomarCurso(tipoDeSuscripcion)
-for (var i = 0; i < curso.length; i++)
 
 
-    for (var i = 0; i < ciclo.length; i++){
-        if (ciclo[i].suscripcion === "Free") {
-            console.log("Solo puedes tomar los cursos gratis");
-        }
-    }
-        
-if (tipoDeSuscripcion === "Free") {
-    console.log("Solo puedes tomar los cursos gratis");
-} if (tipoDeSuscripcion === "Basic") {
-    console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
-} if (tipoDeSuscripcion === "Expert") {
-    console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
-} if (tipoDeSuscripcion === "ExpertPlus") {
-    console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
-}
 
 
-//no logré hacerlo, pero asi lo hizo la IA📃📃📃📃📃📃📃📃📃
+
+
+//pero asi lo hizo la IA📃📃📃📃📃📃📃📃📃
 
 const tipoDeSuscripcion = "Basic";
 
@@ -319,6 +312,7 @@ while (i >= 2) {
 
 // mi solucion:
 
+//mi solucion:
 console.log("Hola, este es un text de suma");
 var suma= prompt("cuanto es 2+2:    ")
                                   if (suma === "4") {
@@ -381,10 +375,11 @@ while (true) {
 
 💧💧💧//siguiente ejercicio.Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 //mi solucion:
-var carros = [];
+var carros = [];//no era necesario
 function imprimirElemento(arrayCarros) {
     var carros= arrayCarros 
     return (carros[0])
+    // return arrayCarros[0], se podia directamente 
 }
 // lo cargas en consola del navegador y luego llamas a la funcion imprimirElemento con el array dentro
 imprimirElemento(["r", 2, 3, 4, 5])
@@ -400,7 +395,7 @@ var carros = [];
 function imprimirElemento(arrayCarros) {
     var carros = arrayCarros; 
 
-    for (var i = 0; i < carros.length; i++){
+    for (var i = 0; i < carros.length; i++){ //poner mejor let
     
         console.log(carros[i]);
         //return carros[i];
@@ -427,11 +422,12 @@ var perros = [
   // Puedes agregar más marcas según sea necesario
 ];
 
-
+//llamamos a la funcion:
+imprimirElemento(perros)
 //y ya imprime cada elemento.(no tengo idea si esta bien)
 
 
-
+/* 
 for (var i = 0; i < perros.length; i++){
     
         console.log(perro[i]);
@@ -439,7 +435,7 @@ for (var i = 0; i < perros.length; i++){
 };
        // i++;
 
-
+ */
 // vamos a ver como lo hace la IA 📃📃📃📃📃📃📃
     function imprimirElementos(array) {
   array.forEach(function(elemento) {
@@ -471,7 +467,7 @@ this.nacionalidad = NACIONALIDAD;
 var misJugadores = [];
 function filtrarFutbolista(ObjetoJugador) {
 
-    console.log(ObjetoJugador.nombre);
+    console.log(ObjetoJugador.nombre);// esta solucion podria ser, pero no es optimqa, no se por que ajaj en la siguiente solucion esta de la forma correcta
     console.log(ObjetoJugador.goles);
     console.log(ObjetoJugador.equipo);
     console.log(ObjetoJugador.nacionalidad);
@@ -498,7 +494,52 @@ filtrarFutbolista(jugadores);
 //aqui termina solucion 1 de ejercicio 1:
 
 
-//solucion 2 ejercicio(queda pendiente):
+
+//solucion 2 (con object.values(objeto))
+
+
+
+function futbolista(NOMBRE, GOLES, EQUIPO, NACIONALIDAD) {
+this.nombre = NOMBRE;
+this.goles = GOLES;
+this.equipo = EQUIPO;
+this.nacionalidad = NACIONALIDAD;   
+}
+
+var misJugadores = [];
+function filtrarFutbolista(ObjetoJugador) {
+
+    let arregloDeObjeto = Object.values(ObjetoJugador);//objec.values convierte de objeto a arreglo
+    //pero tambien existe object.kiss algo .entris y otros mas (preguntarle a IA)
+    for (let i = 0; i < arregloDeObjeto.length; i++) {
+        console.log(arregloDeObjeto[i]);
+    }
+};
+
+
+let jugadoresFutbol = [];//cuando lo deje dentro del for, no me lo reconocio para imprimirlo en el navegador
+var jugadores
+var cantidadJugadores = prompt("Cantidad de jugadores a registrar:    ")
+for (var i = 0; i < cantidadJugadores; i++) {
+var nombre = prompt("ingresa el nombre del jugador:    ");
+var goles = prompt("ingresa todos sus goles:    ");
+var equipo = prompt("ingresa el club de su vida:    ");
+var nacionalidad = prompt("ingresa su nacionalidad:    ");
+    jugadores = new futbolista(nombre, goles, equipo, nacionalidad);
+    
+    jugadoresFutbol.push(jugadores);
+    
+}
+filtrarFutbolista(jugadores);
+
+
+
+//fin solucion 2
+
+
+//la solucion anterior es buena, pero sin tanrta cosa esta en el .md de la carpeta descargada de platzi de4 este mismo curspo.
+
+//solucion 3 ejercicio(queda pendiente):
 var listaJugadores = [];
 var cantidadRegistrados =0;
 function futbolista(NOMBRE, GOLES, EQUIPO, NACIONALIDAD) {
@@ -538,7 +579,7 @@ console.log( misJugadores[i]);
 }
 };
 
-// aqui termina segunda 2 solucion de segundo ejercicio
+// aqui termina segunda 3 solucion de segundo ejercicio
 
 
 //asi lo soluciono la IA📃📃📃📃📃:
@@ -565,41 +606,41 @@ let objetoEjemplo = { a: 10, b: 20, c: 30 };
 imprimirElementos(objetoEjemplo);
 
 
+//aqui termina ejercicio de la IA 📃📃📃
+
+
+
+👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
+//de ahora en adelante vamos a ver las soluciones de platzi para cada ejerccio:
+/* 
+ya hay un .md donde etsan las respuestas. aqui pondremos algunas notas sobre esas solucioones.
+
+- es mejor usar let y no var, var tiene algunos inconvenientes.
+
+-las variables contantes tienen valores constantes y no se pueden cambiar.
+
+-declara una variable, inicializar es darle un valor y reiniciarlizar es cambiar su valo0r
+
+-let sumaStrings = "hola, " + "pedro"; // me sumaria esas 2 pàlabras
+
+
+
+NOTA IMPORTANTE. 🙌 tenia unda duda sobre como usar el return de una funcion. y la solucion o respuesta es quue se puede reinicializar una variable o inicIalizar una variable y asignarle esa funcion con sus aRGUMENTOS, asi esa variable obtemndra el reoturn.
+
+
+los navergadortes nos dsan unsas fuinciones pòr defecto como: comnsole.log
+console.warm. console.alert. cosole.table
+
+
+
+
+
+ */
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Aqui cree un arrego de arreglos(se me parece a un objeto):
-var carros = [];
-var marcas = [];
-var annio = [];
-
-function llenarInfoAutos(arrayCarros, arrayMarcas, arrayAnnio) {
-    var carros = arrayCarros; 
-    var marcas = arrayMarcas;
-    var annio = arrayAnnio;
-
-    var listaVehiculos = [arrayCarros,arrayMarcas,arrayAnnio,];
-    
-    return (listaVehiculos)
-}
 
 
