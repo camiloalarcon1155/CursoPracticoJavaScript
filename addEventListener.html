@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI CASA</title>
+</head>
+<body>
+    <h1>MI CASA EN EL FUTURO</h1>
+    <h2 class="verde" >Por BCAH</h2>
+    <p>Hola! A continuacion te mostrare como sera mi casa en el futuro y cuales seran sus caracteristicas, que es lo que debe y lo qu eno debe tener y para que pèrsonas estara disponible </p>
+    <p id="perron">La casa sera de 5 pisos y se vera asi: </p>
+    <img src="https://i.pinimg.com/474x/de/36/e9/de36e901d61f4d0393191738f82f5032.jpg" alt="mi casa">
+
+    <p class="parrito">Cuantas personas cres que van a vivir en el primer piso?</p>
+
+    <form id="formularioMiCasa">
+        <input id="dato1" placeholder="Responde aquí...">
+        
+        <p class="parrito">Cuantas personas cres que van a vivir en el ultimo piso?</p>
+        
+        <input id="dato2" placeholder="Responde aquí...">
+        <button id="BOTNsumarDatos">Calcular</button>
+        <!-- otra forma para evitar que el formulario haga el submit cuando damos click en ultimo boton, es volver a usar el click como evento y aca darle al ultimo boton como type = button y no como submit como viene por defecto. para esto ya no se necesita el event.preventdefault -->
+        <p>A continuacion sumaremos la informacion escrita:</p>
+        <p id="resultado">RESULTADO</p>
+    </form>
+
+    <script src="./addEventListener.js"></script>
+</body>
+</html>
+
+<!-- lo que haremos es quitar todo lo que tenga que ver con java script en html y usar addevenlistener 
+
+-Cuando usé el formulario, ya no me generó la suma o priooceso que le tenia programado, lo que hace cuando le doyu en el boton calcular es cargarme de nuevo la pagina, enviarme a una ruta diferente, por que toma el ultimo boton y al darle click te envia a otro lado. cuando un formulario tiene un boton al final, html por defecto lo toma como submit, osea que se va a hacer una solicitud a otra URL y por eso es que al darle click nos da otra ruta distinta. por eso no podemos ver el resultado.
+
+
+
+-->
