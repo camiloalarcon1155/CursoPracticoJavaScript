@@ -666,4 +666,18 @@ AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
 
 
 
+//🍀inicio a hacer conexion con github///////////////////
+//le dampos en git al iniciar: ls-lf
+//luego creamnos el .gitignore y ponemos archivos vistos con ls -lf
+//entramos a gitignore.io y creamos nuestro gitignore, solo hay que listarlos: macos, windows, linux, vscode, node.
+//AHORA cuando nos cree nuestro documento, copiamos y pegamos en nuestrto documento y luegio hacemos git add .gitignore, y despues si hacemos git add .
+//para que ignore carpeta tambien, entonces ponemos ejemplo: .vscode(es de la carpèta que contiene el archivo) y vscode/*(es del archivo)
+//de nuegvo adcionamos solo el gitignore y luego ya el git add . (git add -A)
+// luego git -m "mi mensaje"
+
+//con git remote -v miramos is hay algun repositorio remoto
+//luego cambiamos nuestra rama master a main en git
+//luego ya hacemos conexion con la htttp  de git hub
+//luego hacemos git push -u origin main, con -u la primera vez y despues ya no.
+
 
