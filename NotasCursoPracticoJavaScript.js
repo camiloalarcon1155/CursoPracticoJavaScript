@@ -666,7 +666,7 @@ AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
 
 
 
-//🍀inicio a hacer conexion con github///////////////////
+//🍀🌹🌹🌹🌹🌹🌹🌹inicio a hacer conexion con github///////////////////
 //le dampos en git al iniciar: ls-lf
 //luego creamnos el .gitignore y ponemos archivos vistos con ls -lf
 //entramos a gitignore.io y creamos nuestro gitignore, solo hay que listarlos: macos, windows, linux, vscode, node.
@@ -680,4 +680,22 @@ AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
 //luego ya hacemos conexion con la htttp  de git hub
 //luego hacemos git push -u origin main, con -u la primera vez y despues ya no.
 
+
+//creamoa un repositorio llamado gitHubEnJavaScript
+//creamos readme.md directamente desde github
+//TAMBIEN CREAMOS el gitignoere con node.js
+// y cresamos la license MIT
+//y crear
+//luego entramos a la carpeta en directoprio local y le dampos git clone + la direccion del direcctorio remoto.
+//entramos a la carpeta y le damos ls -lf
+
+//usamos en git: code ./ -r : es como para que me permita crear un sitio de una en mi vs code para ese proyecto, sin ir a abrir mas carpetas
+//para ignorar otro docuemnto, vamos a gitignore y al final del archivo ponemos:
+//# Editor
+//.vscode
+//luego le damos git add .gitignore
+//y git commit
+// por ultimo hacemos git push y observamos en github si se subio
+
+//🎉🎉🎉 vamos  a tomar un proyecto de gitHub y vamos a contribuir en el
 
