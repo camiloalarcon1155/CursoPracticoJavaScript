@@ -692,7 +692,7 @@ AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
 //usamos en git: code ./ -r : es como para que me permita crear un sitio de una en mi vs code para ese proyecto, sin ir a abrir mas carpetas
 //para ignorar otro docuemnto, vamos a gitignore y al final del archivo ponemos:
 //# Editor
-//.vscode
+//.vscodels
 //luego le damos git add .gitignore
 //y git commit
 // por ultimo hacemos git push y observamos en github si se subio
@@ -703,4 +703,25 @@ AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
 //vamos a forkear el proyecto llamado Curso practico de frontend developer de la profe Estefany aguilar, que solo tiene css y html y le vamos a hacer manipulacion del dom con java script
 
 //y al final del curso le haremos pull request
+
+// recordar que podemos crear carpetas e ignorarlas
+
+// para siguientes cursos comenzamos a trabajar en /c/Users/Camilo/Desktop/Platzi/cursoPracticoJavaScript/proyectoFrontDevelopmentConJavaYgitHub/curso-frontend-developer-javaScript, donde estos tienen repositorio propio llamado curso-frontend-developer-javaScript que esta mi propio repositorio
+
+
+
+//git commit --amend --no-edit
+//para mantener el mensaje
+//luego git push --force origin main
+
+//para camnbiar nombre de branch:
+//git branch -m <nombre_antiguo> <nombre_nuevo></nombre_nuevo>
+
+//i necesitas también cambiar el nombre de la rama en el repositorio remoto, deberás eliminar la rama remota con el nombre antiguo y luego volver a empujar la rama con el nombre nuevo. Puedes hacerlo con los siguientes comandos:
+
+//git push origin --delete <nombre_antiguo>
+//git push origin <nombre_nuevo>
+
+//ahora para deshacer un commit 
+//git reset --hard <hash_del_commit_anterior>
 
