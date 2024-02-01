@@ -699,3 +699,8 @@ AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
 
 //🎉🎉🎉 vamos  a tomar un proyecto de gitHub y vamos a contribuir en el
 
+//vamos a hacer un fork
+//vamos a forkear el proyecto llamado Curso practico de frontend developer de la profe Estefany aguilar, que solo tiene css y html y le vamos a hacer manipulacion del dom con java script
+
+//y al final del curso le haremos pull request
+
