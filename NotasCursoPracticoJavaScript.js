@@ -737,3 +737,21 @@ AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
 
 //cursor:pointer; cambia a puntero
 
+//🥩🥩🥩//para copiar un archivo en git:
+
+//cp fusionComponentes.html fusionComponentesMobile.html
+//luego se hace commit para que topdo quede guardado
+//cree copias de fusion componentes para ahora trabajarlo en la version mobil, para que mi trabajo quede todo guardado
+//🥩🥩🥩
+
+//poara renombrar archivos en git:
+//git mv fusionComponentesMobile.css fusCompMobil.css
+//luego git add y comm y pushh
+
+  🌹//me parece importante esto:
+   .desktop-menu {
+                display: none;
+            }
+//ESO SE LO PONE AL @MEDIA  pàra que desaparezca en anchos determinados
+
+//lo que se hizo hasta aqui fue unir codigo de clase 8  de desarrollo frontend a nuestro trabajo, usamos fusCompMobil .css .js .html y ya tenemos el menu de ordenes anclado, el menu de mobil ejecutandose y aparecen y desaparecen de acuerdo al ancho de pantalla. video 20 terminado
