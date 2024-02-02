@@ -1,0 +1,10 @@
+/c/Users/Camilo/Desktop/Platzi/CURSO-Programacion-basica/basicoProgram/programar/estrellepon/public
+C:\Users\Camilo\Desktop\Platzi\CURSO-Programacion-basica\basicoProgram\programar\estrellepon\public
+
+
+/c/Users/Camilo/Desktop/Platzi/cursoPracticoJavaScript/proyectoFrontDevelopmentConJavaYgitHub/curso-frontend-developer-javaScript
+C:\Users\Camilo\Desktop\Platzi\cursoPracticoJavaScript\proyectoFrontDevelopmentConJavaYgitHub\curso-frontend-developer-javaScript
+
+
+/c/Users/Camilo/Desktop/Platzi/cursoPracticoJavaScript
+C:\Users\Camilo\Desktop\Platzi\cursoPracticoJavaScript
