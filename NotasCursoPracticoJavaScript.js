@@ -722,6 +722,18 @@ AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
 //git push origin --delete <nombre_antiguo>
 //git push origin <nombre_nuevo>
 
-//ahora para deshacer un commit 
+//ahora para deshacer un commit
 //git reset --hard <hash_del_commit_anterior>
+
+/* En CSS, position: absolute es una propiedad que se utiliza para posicionar un elemento de manera absoluta dentro de su contenedor más cercano que tenga una propiedad de posición relativa, absoluta o fija. Cuando un elemento tiene position: absolute, se posiciona con respecto a las coordenadas especificadas usando las propiedades top, right, bottom y left. */
+
+//🎈🎈🎈🎈nota importante:
+//desktopMenu.classList.toggle('inactive'); me sirvio para hacer aparecer o desaparecer un menu poniendole a ese menu en css :
+ .inactive {
+            display: none;
+}/* es util para usarla en java script */
+        
+//🎈🎈
+
+//cursor:pointer; cambia a puntero
 
