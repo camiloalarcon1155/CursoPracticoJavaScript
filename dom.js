@@ -34,14 +34,20 @@ h1Titulo.innerText = 'PELALA <br> Feo'; //  AQUI CONVIERTE Todo en texto y <br> 
 console.log(h2.getAttribute('class'));//le decimos que nos buque un atributo de ese elememto, llamado class y si existe, va a imprimir su valor
 
 //ahora vamos a modificar el  valor de ese atributo:
-parrafo1.setAttribute('class', 'rojo'); // si vamos y inspeccionamos el p que es parrafo1 en nuestro java scrip, su valor de atributo sera rojo.
+parrafo1.setAttribute('class', 'rojo'); // si vamos y inspeccionamos el p que es parrafo1 en nuestro java scrip, su valor de atributo sera rojo. si ya tenia un nombre de clase, se lo cambiará.
+
 //tambien hay :
 //hay otra funcion que sirve especificamente con las clases:
-h1Titulo.classList.add('rosa');// aqui le agregasmos una nuieva clase al elemento h1Titulo
+h1Titulo.classList.add('rosa');// aqui le agregasmos una nuieva clase al elemento h1Titulo, no se la cambia, le agrega una mas
+
 //tambien se la puede quitar asi:
 h1Titulo.classList.remove('rosa');// y ya se la quita automaticamente
-//existen otros como:  h1Titulo.classList.toggle('rosa');
-//u otro :h1Titulo.classList.contains('rosa');, este devuelve true o false si elemento tiene o no la clase que le etan preguntando.
+//existen otros como:  
+
+h1Titulo.classList.toggle('rosa'); // es una forma de alternar la presencia de una clase en un elemento HTML. En este caso, parece que se está aplicando a un elemento <h1> con el objetivo de alternar la clase "rosa" en ese elemento.
+//Por ejemplo, si tienes un botón en tu página web y quieres que el color de fondo de un elemento <div> cambie cada vez que haces clic en el botón, puedes usar classList.toggle() para alternar una clase que define el color de fondo deseado.
+
+h1Titulo.classList.contains('rosa');// este devuelve true o false si elemento tiene o no la clase que le etan preguntando.
 
 //otro ejemplo:
 
