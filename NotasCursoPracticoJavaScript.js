@@ -751,7 +751,25 @@ AQUI TERMINA NOTAS DE ejercicios hast avideo 9 de cursopractico de java script
   🌹//me parece importante esto:
    .desktop-menu {
                 display: none;
-            }
+} // es lo mismo que 
+    .inactive {
+                display: none;
+}
 //ESO SE LO PONE AL @MEDIA  pàra que desaparezca en anchos determinados
 
 //lo que se hizo hasta aqui fue unir codigo de clase 8  de desarrollo frontend a nuestro trabajo, usamos fusCompMobil .css .js .html y ya tenemos el menu de ordenes anclado, el menu de mobil ejecutandose y aparecen y desaparecen de acuerdo al ancho de pantalla. video 20 terminado
+
+
+//😁😁😁😁Importante: Si he hecho cambios en un archivo y me aparece en el git que se hicieron cambios, pero no deseo esos cambios, por que ni sisquiera se que cambios son y aun no han siddo agregados al stagging, le doy:
+
+git checkout-- clase13.html // clase13 es mi archivo.
+
+//si mis archivos ya han sido agregados al stagging, entonces lo quie hacemos es 
+ git reset HEAD clase13.html
+//...sacrlo del staging y luego:
+git checkout-- clase13.html
+//..deshacer esos cambios del archiovo
+
+
+
+//la etiqueta aside, ademas del carrito de compras, tambien sirve para detalles de un producto. (foto mas grande del productom, precio y cosas)
