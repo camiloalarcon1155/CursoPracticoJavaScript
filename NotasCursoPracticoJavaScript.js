@@ -773,3 +773,20 @@ git checkout-- clase13.html
 
 
 //la etiqueta aside, ademas del carrito de compras, tambien sirve para detalles de un producto. (foto mas grande del productom, precio y cosas)
+
+
+//una forma rapida de recorrer un arreglo:
+
+for (product of productList) {
+    console.log(product.name)
+};// con of me imprime el name por ejemplo, pero con in...
+
+for (product in productList) {
+    console.log(product)
+};// me imprime el indice de cada producto
+
+//ver archivos fusAgregProds de : proyecto forkeado cd /c/Users/Camilo/Desktop/Platzi/cursoPracticoJavaScript/proyectoFrontDevelopmentConJavaYgitHub/curso-frontend-developer-javaScript
+// ahi se muestra todo el proceso de renderizado de unm elemento HTML, desde java script, es el video 22 de curso practico de java script
+
+
+
