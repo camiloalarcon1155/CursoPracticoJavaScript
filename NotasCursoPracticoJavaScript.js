@@ -790,3 +790,14 @@ for (product in productList) {
 
 
 
+// seguimos trabajando en proyecto desarrollador web , estamos mejoranddo el menu que despliega las caracteeristicas de cada orden. ya nos despliega la info de cada orden y nos muestra su contenido, ya aparece en el elspacio que deberia y ya funcionan su css correctamente. pero ese menu hace parte del 2 aside del proyecto, que pertenece a la clase 12 del mismo, dado en el curso de front development. entonces aside 1 y aside 2 tenian los mismos nombres de clases y toco que cambiarlos para cada uno y modificar este nombre en java script para el aside 1 y en css para el aside 2(a l aside 2 aun no le hacemos modicicaciones en java script para que aparezca cuando le damos click a cada compra, eso se hara en video 24 del curso.)
+
+// lo unico diferente al profe de platzi quwe llevamos npostros hasta aquii , es que modificamos estos dos nombres :
+
+/*  .product-detail-close { --> original
+   #productDetail .product-detail-close {
+
+    .product-detail-close:hover { --> original
+    #productDetail .product-detail-close:hover {
+      */
+     
