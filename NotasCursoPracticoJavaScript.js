@@ -812,3 +812,25 @@ for (product in productList) {
 // El método setAttribute() se utiliza para establecer un atributo en un elemento HTML, no para manipular clases CSS. En cambio, classList proporciona métodos específicos para trabajar con clases CSS, como add(), remove(), toggle(), etc.
 
 //Hasta aqui ser termino el video 24 y ya todos los menus se pueden desplegar completamente. aunque aun hay muchas cossas por  hacer como que al darle click en mi orden ya me aparezcan loa fotos de todas las ordernes y que se desplieguen mas menus. me quedo una pequeña duda con el uso del toogle y el condicvoonal if, por que en la mayoria de fucnionesq que hicismo se uso if y toogle, pero en open y en close se cerro de una el menu, pero el dice que eso se puiede hacer es por que despues se usaba add, remove y no toogle, aunqie revise y hace lo mismo, quienm sabe...
+
+
+
+
+// ahora ya teniemndo tod el proyecto , hacemos el pull request con esta info
+
+/* 
+Agregamos los archivos desplegCadaCompra.html, desplegCadaCompra.css y desplegCadaCompra.js para fusuionar todos los componentes de la vista principal:
+
+archivos / componentes qeu fusionamos:
+
+- clase11.html (menu  general)
+- clase7.html (menu desktop)
+- clase8.html (menu mobile)
+- clase6.html (lista de productos)
+- clase12.html (detalles de cada producto)
+
+gracias a la fusion los usuarios pueden utilizar el menu de navegacion con tosdos los componentes. funciona en mobile, desktop, con el carrito de compras y los detalles de un producto, ademas de renderizar la lista de productos a partir de un array (hardcodeado)
+
+todos los compomentes se probaron individualmente y en conjunto para que los usuarios tengan una buena experiencia :D */
+
+// y bueno, video 25 terminado
