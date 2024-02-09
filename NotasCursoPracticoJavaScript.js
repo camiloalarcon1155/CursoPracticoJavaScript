@@ -800,4 +800,15 @@ for (product in productList) {
     .product-detail-close:hover { --> original
     #productDetail .product-detail-close:hover {
       */
-     
+
+
+
+// git clean -f detCadaCompra.css sirve para borrar un archivo desde git, aunque no este siendo seguido por git
+
+
+💧💧😲
+// El método setAttribute() no está disponible en la interfaz DOMTokenList, que es lo que devuelve classList. Por lo tanto, no puedes utilizar setAttribute() directamente en un objeto de classList.
+
+// El método setAttribute() se utiliza para establecer un atributo en un elemento HTML, no para manipular clases CSS. En cambio, classList proporciona métodos específicos para trabajar con clases CSS, como add(), remove(), toggle(), etc.
+
+//Hasta aqui ser termino el video 24 y ya todos los menus se pueden desplegar completamente. aunque aun hay muchas cossas por  hacer como que al darle click en mi orden ya me aparezcan loa fotos de todas las ordernes y que se desplieguen mas menus. me quedo una pequeña duda con el uso del toogle y el condicvoonal if, por que en la mayoria de fucnionesq que hicismo se uso if y toogle, pero en open y en close se cerro de una el menu, pero el dice que eso se puiede hacer es por que despues se usaba add, remove y no toogle, aunqie revise y hace lo mismo, quienm sabe...
