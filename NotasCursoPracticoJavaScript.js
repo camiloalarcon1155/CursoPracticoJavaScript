@@ -834,3 +834,20 @@ gracias a la fusion los usuarios pueden utilizar el menu de navegacion con tosdo
 todos los compomentes se probaron individualmente y en conjunto para que los usuarios tengan una buena experiencia :D */
 
 // y bueno, video 25 terminado
+
+//en video 26 era subir el proycto y conocer otros prtoyectos(terminado)
+
+// en video 27 es ir a pages, por setting en nuestro repositorio.
+
+//no tocar choose a theme, ese es para cuando queremos lleer un readme, algo asi dijo
+
+//elegimos rama main y root y save
+// Y YA TE genera la url de dond epuedes ver tu page
+
+// al link que nos de le escribimos el nombre del archivo  para que ya nos lo muesttre
+
+//https://camiloalarcon1155.github.io/curso-frontend-developer-javaScript/desplegCadaCompra.html
+
+// luego vamos a al pull request de nuevo y le enviamos la pagina para que ella lo vea
+
+// eso es todfo el curso, pero ahora lo que haremos sera modificar nuestro proyecto, darle una personalizacion en una rama que see llamara camkat
