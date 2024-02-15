@@ -851,3 +851,63 @@ todos los compomentes se probaron individualmente y en conjunto para que los usu
 // luego vamos a al pull request de nuevo y le enviamos la pagina para que ella lo vea
 
 // eso es todfo el curso, pero ahora lo que haremos sera modificar nuestro proyecto, darle una personalizacion en una rama que see llamara camkat
+
+
+//😜😜 Para crear una nueva rama en Git, puedes utilizar el siguiente comando en tu terminal o línea de comandos:
+
+//git checkout -b nombre_de_la_rama
+
+
+//😁😁😁😁Importante:
+
+//RECORDAR USAR4 ESTO SIEMPRE EN css:
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/// mi primera idea ahora es ponerle un titulo para el contenido que se vaya a mostrar la seccion main container, osea en la lista de productos, pero eso me lleva a pensar que puedo mostrar en el main ropa camisetas, ropà jeans, ropa pantalonetas y asi. inclsuo lo que hare es que haya una funcion o condicional que de acuerdo a mi arreglo o de acuerdo al  event listener, entonces me llame la funcion de renderizar ya sea las camisetas, chaquetas o jeans o y todo y que dea cuerdo a lo quese despliegue, entonces aparezca el titulo con el nombre general de las prendas.
+
+
+// ESTO E SLO QUE HARÉ: voy a escuchar click s con el addevenlistener y por cada evenlistener voy a llamr a la funcion  llamarRenderizado, en esta funcion creo un switch para evaluar cada caso, en cada caso pongo a evaluar que boton presiono, de acuerdo a cada boton pongo el titulo h1 en el maincontainer y llamo a la funcion renderizar con su arreglo correspondiente.
+
+
+//💕💕💕NOTA IMPORTANTE: no se deben llamar a la funciones con su argumento directamente en el addevenlistener por que se ejecutan de una.
+
+
+//para resaltar borde cuando pase el cursor:
+ 
+.navbar-email:hover {
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+}
+
+// pero esta propiedad no se puede ver en los estilos del navegador por que es una psudoclase
+        
+
+//💥💥💥💥🏍🏍🏍🏍🏍🏍🏍🏍🏍🏍 esta funcion fue ideal paara obtener el valor de un elemento de un areglo creado con java script: 
+  productImg.addEventListener('click', ((obj) => {
+    return function() {
+        DesplegableCompra(obj); //permite obtener la variable inmediatamente cuando se le da click
+    };
+  })(product));//llamada FUNCION DE CIERRE
+//Aquí se utiliza una técnica de cierre (closure) para capturar el valor de product en el momento en que se agrega el event listener.
+//me permite agregarle un cierre a la funcion inmediatamente se le da click para que tome directamente el dato y lo envie, sin que siga correindo un for.
+
+// explicacion:
+
+// Esta es una función de flecha anidada dentro de otra función. Vamos a desglosarla paso a paso:
+
+// ((obj) => { ... })(product): Esto define una función de flecha que toma un argumento obj. La sintaxis ((argumento) => { ... })(valor) se conoce como "IIFE" (Immediately Invoked Function Expression), que significa "Expresión de Función Inmediatamente Invocada". En este caso, product es pasado como argumento al IIFE.
+
+// return function() { ... }: La función de flecha interna definida dentro del IIFE es la función que se ejecutará como manejador de evento cuando se dispare el evento de clic en productImg. Esta función no toma ningún argumento y simplemente llama a DesplegableCompra(obj) con el argumento obj.
+
+// Entonces, en resumen, esta estructura crea una función de cierre que captura el valor de product en el momento en que se declara la función, asegurando que este valor se mantenga constante y se pase correctamente como argumento a DesplegableCompra cada vez que se haga clic en un producto.
+
+
