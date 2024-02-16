@@ -911,3 +911,9 @@ html{
 // Entonces, en resumen, esta estructura crea una función de cierre que captura el valor de product en el momento en que se declara la función, asegurando que este valor se mantenga constante y se pase correctamente como argumento a DesplegableCompra cada vez que se haga clic en un producto.
 
 
+//cosas por hacer 🙌🙌🙌🙌🙌🙌🙌
+hacer mas grande boton de cerrar desplegable de detalle de producto
+que aparezca asaide de detalle en pantalla principal 
+cambialr estilo a div infoempresa   
+darle funcionalidad a boton "add to cart"
+hace que en aside de detalles de compra me aparezcan los productos seleccionadas
