@@ -10,5 +10,10 @@ cd /c/Users/Camilo/Desktop/Platzi/cursoPracticoJavaScript
 C:\Users\Camilo\Desktop\Platzi\cursoPracticoJavaScript
 
 
+notepad $PROFILE
+
+
+C:\Users\Camilo\Desktop\abrirMisApps.ps1
+
 
 meWORKING09@

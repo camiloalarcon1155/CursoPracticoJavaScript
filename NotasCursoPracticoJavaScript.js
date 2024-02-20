@@ -917,3 +917,73 @@ que aparezca asaide de detalle en pantalla principal
 cambialr estilo a div infoempresa   
 darle funcionalidad a boton "add to cart"
 hace que en aside de detalles de compra me aparezcan los productos seleccionadas
+
+
+//🍖🍖🍖🍖🍖🍖🍖🍖NOTA SUPER IMPORTANTE🍖🍖🍖🍖🍖🍖🍖🍖🍖
+
+2 botones diferentes si pueden llamar a la misma funcion con addeventlistener(), pero no se puede hacer un queryselector de con la misma clase en dos etiquetas diferentes, por que tomara la primera que encuentre 
+
+
+
+////🍖🍖🍖🍖🍖🍖🍖🍖🍖///////////🍖🍖🍖🍖🍖🍖🍖🍖🍖🍖🍖
+
+
+
+
+///para el tema de las imgagenes de kamkat, TENER EN cuenta:
+
+        object-fit: cover;
+        object-position: bottom;
+
+//hace el ajuste de sus imagenss, arriba hacia abajo, desde el centro, etc
+//yo use: contain: El contenido se ajusta para caber dentro del contenedor mientras mantiene su relación de aspecto original, sin recortar.
+
+
+
+.cards-container {
+                grid-template-columns: repeat(auto-fill, 140px);
+            }
+
+
+// Claro, esta propiedad CSS es parte del módulo de diseño de cuadrícula (grid) y se utiliza para definir el diseño de una cuadrícula de elementos dentro de un contenedor.
+
+// En este caso, .cards-container es la clase del contenedor que contiene las tarjetas (o elementos) que quieres mostrar en una cuadrícula.
+
+// La propiedad grid-template-columns se utiliza para establecer el ancho de las columnas en la cuadrícula. En este caso específico, se utiliza la función repeat() en combinación con auto-fill para especificar que el navegador debe crear tantas columnas como pueda para llenar el contenedor, cada una con un ancho fijo de 140 píxeles.
+
+// Entonces, esta regla CSS asegura que en .cards-container habrá tantas columnas como puedan caber con un ancho fijo de 140 píxeles cada una, lo que permite que las tarjetas se distribuyan de manera uniforme y responsiva en función del tamaño del contenedor.
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <h3>Información de Contacto</h3>
+            <p>Dirección: 123 Calle Principal, Ciudad</p>
+            <p>Teléfono: (123) 456-7890</p>
+            <p>Email: info@example.com</p>
+        </div>
+        <div class="footer-nav">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Síguenos en Redes Sociales</h3>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
+    </div>
+</footer>
