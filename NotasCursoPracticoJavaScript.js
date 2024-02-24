@@ -954,36 +954,81 @@ hace que en aside de detalles de compra me aparezcan los productos seleccionadas
 // Entonces, esta regla CSS asegura que en .cards-container habrá tantas columnas como puedan caber con un ancho fijo de 140 píxeles cada una, lo que permite que las tarjetas se distribuyan de manera uniforme y responsiva en función del tamaño del contenedor.
 
 
+//tema de html images:
+
+Para optimizar una imagen apginas:
+Tiny PNG: le pasas una foto o imagen y te la comprime lo mmaximo para reducir peso
+Verexif: para quitar datos puestos por celular, quitar peso extra, generalmebte se usa con imgenes de camaras
+
+//para listas:
+
+nota. ¿Cuál es la mejor práctica para generar listas de opciones en HTML?
+    Con < select > cuando hay pocas opciones y con < datalist > en caso de que sean muchas.
 
 
-<footer>
-    <div class="container">
-        <div class="footer-content">
-            <h3>Información de Contacto</h3>
-            <p>Dirección: 123 Calle Principal, Ciudad</p>
-            <p>Teléfono: (123) 456-7890</p>
-            <p>Email: info@example.com</p>
-        </div>
-        <div class="footer-nav">
-            <h3>Enlaces Rápidos</h3>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </div>
-        <div class="footer-social">
-            <h3>Síguenos en Redes Sociales</h3>
-            <ul>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
-    </div>
-</footer>
+
+        
+
+        
+////👇👇👇👇👇👇👇👇👇👇 tema display css:
+display:
+
+
+block:// va a usar l 100% de contenedor sin importar ssi hay o no contenido para todo ese espacio 
+inline:// si hay espacio delante o detras, permite que otra eiqueeta o contenedor se pponga delante. en inline no se puede usar el padding para la parte de arriba o abajo y tampoco se puede darle un with y un high, crece lineal. inline bloc ocupan el 100% del tamaño del bloque
+
+-justify-content:// ayuda a justificar contenido horizontalmente, ya sea al inicio(start), final(justify-content:// flex-end) centrar. siempre poner al contenedor padre, no al contenedor que quiero mover.
+
+justify-content:// space-around:// hace que haya un espacio entree cada contenedor. pero si quiero que queden muy parejos los espacios uso space-evenly.
+
+
+-align-items:// center; se alinearon de forma vertical en el centro.
+-align-items:// stretch; se estira al tamañño de su contenedor padre(se deben quiitar alturas fijas)
+-align-items:// baseline; toma el pacio de su contenido (texto por lo general)
+-con order se cambian las posiciones
+-flex-grow:// al que se lo aplique ocupara espacio que sobre de contenedor padre
+-flex basis:// sirve para darle un tamaño base a un contenedor y si lo agrupamos con flex-grow sirve bastante.
+
+////👇👇👇👇👇👇👇👇👇👇👇
+
+
+
+///✌✌✌🎶🎶margenes:
+
+margin - left: auto;
+margin - right: auto; //se utilizan para centrar horizontalmente un elemento en su contenedor.Esto es un enfoque común para centrar elementos, como un bloque de contenido, un div, una imagen o cualquier otro elemento dentro de un contenedor más grande.
+
+margin: 0 auto; // Centra horizontalmente la imagen dentro del contenedor
+
+
+
+//////🐮🐮🐮🐮🐮 para mi responsive:
+ 
+//MOSTLY FLUID
+.container {
+    display: flex;
+    flex - wrap: wrap; //hace que se vaya ajustando, van fluyendo los contenedores
+} 
+min - width: 150px; 
+
+// de ahi se pone un ancho para movil, otro para tablet 600 y otro para desktop 800 y se ajusta solo el ancho de los contenedores en % o en rem, como quiera
+
+
+href = "#"
+
+//para que se guie a la misma pagina
+
+poner min y max width en cada query
+
+///
+
+tener en cuenta el order: 1; para ordenar divs
+
+//////
+
+
+tener en cuenta no ponerle una altira fija a contenedores que pueden crecer por su contenido, ejemplo: productos o su texto puede crecer hacia abajo cuando se haga responsive
+
+//
+
+justify-content: space-between;//muy importante para poner espacio entre element0s
